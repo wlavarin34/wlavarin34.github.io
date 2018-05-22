@@ -1,0 +1,103 @@
+[27-Mar-2018 10:40:32 America/New_York] PHP Parse error:  syntax error, unexpected ''X-Mailer'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/send.php on line 10
+[07-May-2018 14:46:52 America/New_York] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'seotnxqo_BuchardLouis'@'localhost' to database 'seotnxqo_ThermaWeave' in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/db.php on line 5
+[07-May-2018 15:04:39 America/New_York] PHP Notice:  Undefined variable: dbConnect in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 27
+[07-May-2018 15:04:39 America/New_York] PHP Notice:  Trying to get property of non-object in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 27
+[07-May-2018 15:04:39 America/New_York] PHP Notice:  Undefined variable: dbConnect in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 27
+[07-May-2018 15:04:39 America/New_York] PHP Notice:  Trying to get property of non-object in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 27
+[07-May-2018 15:07:11 America/New_York] PHP Notice:  Undefined variable: dbConnect in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 27
+[07-May-2018 15:07:11 America/New_York] PHP Notice:  Trying to get property of non-object in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 27
+[07-May-2018 15:07:11 America/New_York] PHP Notice:  Undefined variable: dbConnect in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 27
+[07-May-2018 15:07:11 America/New_York] PHP Notice:  Trying to get property of non-object in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 27
+[07-May-2018 15:07:54 America/New_York] PHP Warning:  mysqli::query() expects parameter 1 to be string, object given in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 24
+[07-May-2018 15:07:54 America/New_York] PHP Notice:  Undefined variable: dbConnect in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 27
+[07-May-2018 15:07:54 America/New_York] PHP Notice:  Trying to get property of non-object in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 27
+[07-May-2018 15:07:54 America/New_York] PHP Notice:  Undefined variable: dbConnect in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 27
+[07-May-2018 15:07:54 America/New_York] PHP Notice:  Trying to get property of non-object in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 27
+[07-May-2018 15:08:30 America/New_York] PHP Warning:  mysqli::query() expects parameter 1 to be string, object given in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 24
+[07-May-2018 15:08:30 America/New_York] PHP Notice:  Undefined variable: dbConnect in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 27
+[07-May-2018 15:08:30 America/New_York] PHP Notice:  Trying to get property of non-object in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 27
+[07-May-2018 15:08:30 America/New_York] PHP Notice:  Undefined variable: dbConnect in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 27
+[07-May-2018 15:08:30 America/New_York] PHP Notice:  Trying to get property of non-object in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 27
+[07-May-2018 15:12:18 America/New_York] PHP Notice:  Undefined variable: dbConnect in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 28
+[07-May-2018 15:12:18 America/New_York] PHP Notice:  Trying to get property of non-object in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 28
+[07-May-2018 15:12:18 America/New_York] PHP Notice:  Undefined variable: dbConnect in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 28
+[07-May-2018 15:12:18 America/New_York] PHP Notice:  Trying to get property of non-object in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 28
+[07-May-2018 15:14:43 America/New_York] PHP Notice:  Undefined variable: dbConnect in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 28
+[07-May-2018 15:14:43 America/New_York] PHP Notice:  Trying to get property of non-object in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 28
+[07-May-2018 15:14:43 America/New_York] PHP Notice:  Undefined variable: dbConnect in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 28
+[07-May-2018 15:14:43 America/New_York] PHP Notice:  Trying to get property of non-object in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 28
+[07-May-2018 15:15:04 America/New_York] PHP Notice:  Undefined variable: dbConnect in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 28
+[07-May-2018 15:15:04 America/New_York] PHP Notice:  Trying to get property of non-object in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 28
+[07-May-2018 15:15:04 America/New_York] PHP Notice:  Undefined variable: dbConnect in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 28
+[07-May-2018 15:15:04 America/New_York] PHP Notice:  Trying to get property of non-object in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 28
+[07-May-2018 15:15:49 America/New_York] PHP Notice:  Undefined variable: dbConnect in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 28
+[07-May-2018 15:15:49 America/New_York] PHP Notice:  Trying to get property of non-object in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 28
+[07-May-2018 15:15:49 America/New_York] PHP Notice:  Undefined variable: dbConnect in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 28
+[07-May-2018 15:15:49 America/New_York] PHP Notice:  Trying to get property of non-object in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 28
+[07-May-2018 15:16:03 America/New_York] PHP Notice:  Undefined variable: dbConnect in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 28
+[07-May-2018 15:16:03 America/New_York] PHP Notice:  Trying to get property of non-object in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 28
+[07-May-2018 15:16:03 America/New_York] PHP Notice:  Undefined variable: dbConnect in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 28
+[07-May-2018 15:16:03 America/New_York] PHP Notice:  Trying to get property of non-object in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 28
+[07-May-2018 15:17:25 America/New_York] PHP Notice:  Undefined variable: dbConnect in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 27
+[07-May-2018 15:17:25 America/New_York] PHP Notice:  Trying to get property of non-object in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 27
+[07-May-2018 15:17:25 America/New_York] PHP Notice:  Undefined variable: dbConnect in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 27
+[07-May-2018 15:17:25 America/New_York] PHP Notice:  Trying to get property of non-object in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 27
+[07-May-2018 15:17:37 America/New_York] PHP Notice:  Undefined variable: dbConnect in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 27
+[07-May-2018 15:17:37 America/New_York] PHP Notice:  Trying to get property of non-object in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 27
+[07-May-2018 15:17:37 America/New_York] PHP Notice:  Undefined variable: dbConnect in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 27
+[07-May-2018 15:17:37 America/New_York] PHP Notice:  Trying to get property of non-object in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 27
+[07-May-2018 15:18:29 America/New_York] PHP Notice:  Undefined variable: dbConnect in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 27
+[07-May-2018 15:18:29 America/New_York] PHP Notice:  Trying to get property of non-object in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 27
+[07-May-2018 15:18:29 America/New_York] PHP Notice:  Undefined variable: dbConnect in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 27
+[07-May-2018 15:18:29 America/New_York] PHP Notice:  Trying to get property of non-object in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 27
+[07-May-2018 15:22:36 America/New_York] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 24
+[07-May-2018 15:25:54 America/New_York] PHP Notice:  Undefined variable: dbConnect in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 28
+[07-May-2018 15:25:54 America/New_York] PHP Notice:  Trying to get property of non-object in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 28
+[07-May-2018 15:25:54 America/New_York] PHP Notice:  Undefined variable: dbConnect in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 28
+[07-May-2018 15:25:54 America/New_York] PHP Notice:  Trying to get property of non-object in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 28
+[07-May-2018 15:29:18 America/New_York] PHP Notice:  Undefined variable: dbConnect in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 28
+[07-May-2018 15:29:18 America/New_York] PHP Notice:  Trying to get property of non-object in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 28
+[07-May-2018 15:29:18 America/New_York] PHP Notice:  Undefined variable: dbConnect in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 28
+[07-May-2018 15:29:18 America/New_York] PHP Notice:  Trying to get property of non-object in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 28
+[07-May-2018 15:32:40 America/New_York] PHP Notice:  Undefined variable: dbConnect in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 28
+[07-May-2018 15:32:40 America/New_York] PHP Notice:  Trying to get property of non-object in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 28
+[07-May-2018 15:32:40 America/New_York] PHP Notice:  Undefined variable: dbConnect in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 28
+[07-May-2018 15:32:40 America/New_York] PHP Notice:  Trying to get property of non-object in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 28
+[07-May-2018 15:34:20 America/New_York] PHP Parse error:  syntax error, unexpected 'Y' (T_STRING) in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 24
+[07-May-2018 15:34:57 America/New_York] PHP Notice:  Undefined variable: dbConnect in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 28
+[07-May-2018 15:34:57 America/New_York] PHP Notice:  Trying to get property of non-object in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 28
+[07-May-2018 15:34:57 America/New_York] PHP Notice:  Undefined variable: dbConnect in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 28
+[07-May-2018 15:34:57 America/New_York] PHP Notice:  Trying to get property of non-object in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 28
+[07-May-2018 15:38:33 America/New_York] PHP Notice:  Undefined variable: dbConnect in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 28
+[07-May-2018 15:38:33 America/New_York] PHP Notice:  Trying to get property of non-object in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 28
+[07-May-2018 15:38:33 America/New_York] PHP Notice:  Undefined variable: dbConnect in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 28
+[07-May-2018 15:38:33 America/New_York] PHP Notice:  Trying to get property of non-object in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 28
+[07-May-2018 15:48:54 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 8
+[07-May-2018 15:48:54 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 8
+[07-May-2018 15:48:54 America/New_York] PHP Notice:  Undefined variable: conn in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 20
+[07-May-2018 15:48:54 America/New_York] PHP Notice:  Trying to get property of non-object in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 20
+[07-May-2018 15:50:25 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 8
+[07-May-2018 15:50:25 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 8
+[07-May-2018 15:53:27 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 8
+[07-May-2018 15:53:27 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 8
+[07-May-2018 16:01:54 America/New_York] PHP Notice:  Undefined index: firstname in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/Testimonial.php on line 331
+[07-May-2018 16:01:54 America/New_York] PHP Notice:  Undefined index: lastname in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/Testimonial.php on line 331
+[07-May-2018 16:03:28 America/New_York] PHP Notice:  Undefined index: name in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/Testimonial.php on line 331
+[07-May-2018 16:03:28 America/New_York] PHP Notice:  Undefined index: message in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/Testimonial.php on line 331
+[07-May-2018 16:07:17 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 8
+[07-May-2018 16:07:17 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 8
+[07-May-2018 16:07:37 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 8
+[07-May-2018 16:07:37 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 8
+[07-May-2018 16:08:46 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 8
+[07-May-2018 16:08:46 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 8
+[07-May-2018 16:12:11 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 8
+[07-May-2018 16:12:11 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 8
+[07-May-2018 16:18:30 America/New_York] PHP Notice:  Undefined index: message in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/send.php on line 9
+[07-May-2018 16:19:42 America/New_York] PHP Notice:  Undefined index: email in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit2.php on line 4
+[07-May-2018 16:19:52 America/New_York] PHP Notice:  Undefined index: message in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/send.php on line 9
+[08-May-2018 10:21:26 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 8
+[08-May-2018 10:21:26 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 8
+[08-May-2018 10:30:41 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 8
+[08-May-2018 10:30:41 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 8
+[08-May-2018 10:31:05 America/New_York] PHP Notice:  Use of undefined constant name - assumed 'name' in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 8
+[08-May-2018 10:31:05 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/seotnxqo/wilkenslavarin.us/ThermaWeaveProject/submit1.php on line 8

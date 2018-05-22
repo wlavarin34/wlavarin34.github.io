@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2018 by wlavarin34 (http://jsbin.com/qatekur/2/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wilkens Lavarin - The Tech Entreprenuer</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-98185426-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-98185426-3');
+</script>
+  <meta name="google-site-verification" content="5tAKU_c00nL3RzUoqxV8-UqQh__kHkhjR69eFy4pMB8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Language" content="en" />
+  <meta name="description" content="Wilkens Lavarin's Tech Entrepreneur Website tells you all about myself and the tech industry. So if you re a programmer and would like to make passive income with your skills, this is the place for you! Check out my blog today! I also have an online resume! Get the latest news in the tech word and subscribe to my newsletter today!"/>
+  <meta name="DC.title" content="Wilkens Lavarin - The Tech Entreprenuer"/>
+  <meta property="og:description" content="Wilkens Lavarin's Tech Entrepreneur Website tells you all about myself and the tech industry. So if you re a programmer and would like to make passive income with your skills, this is the place for you! Check out my blog today! I also have an online resume! Get the latest news in the tech word and subscribe to my newsletter today!" />
+  <meta name="Keywords" content="tech, entrepreneur, tech entrepreneur, programming, Wilkens Lavarin, tech industry, latest news in tech industry"/>
+  <meta name="Robots" content="index,follow" />
+  <!-- Google fonts-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- External Scripts-->
+  <!-- jQuery-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" charset="utf-8"></script>
+  <!-- MaterializeCSS Script-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+  <!-- External CSS-->
+  <!-- MaterializeCSS main framework-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+  <!-- AnimateCSS animations-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.0/animate.min.css">
+  <!-- Fontawesome for icons-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- Local CSS-->
+  <link rel="stylesheet" href="style.css">
+ 
+  <!-- Local Scripts-->
+  <script src="script.js" charset="utf-8"></script>
+<script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5af3504b96e6fc00110b336a&product=sticky-share-buttons' async='async'></script>
+<style id="jsbin-css">
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+/*Content*/
+.content {
+	color: #EEEEEE;
+	text-shadow: 0 1px 0 black;
+	flex: 1 0 auto;
+}
+/*General CSS*/
+.content-title {
+	padding-top: 50px;
+	margin-left: 2%;
+	font-size: 50px;
+	font-weight: 900;
+}
+
+#about-title, #skills-title, #lang-title, #frame-title, #port-title, #proj-cards, #contact-title, #contact-form {
+	visibility: hidden;
+}
+
+	/*Nav Bar*/
+	#logo-img {
+		width: 150px;
+		height: auto;
+		margin-top: 5%;
+	}
+
+	.header-text {
+		color: #212121;
+		font-weight: 500;
+	}
+
+	/*Content*/
+
+	/*Home*/
+
+	#home {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+
+		height: 100vh;
+	}
+
+	.social-btns span {
+		margin-right: 20px;
+		color: #5D609A;
+   
+	}
+
+	.social-btns a {
+		margin-top: 10px;
+     box-shadow:0px 0px 3px 3px white;
+	}
+
+	#home-img {
+		margin-top: 20px;
+		border-radius: 20px 50px 20px;
+    box-shadow: 0px 0px 5px 5px black;
+	}
+
+	#home .name h5 {
+		font-weight: 900;
+	}
+
+	#home .description h5 {
+		font-weight: 700;
+	}
+
+	/*About*/
+	#about {
+		min-height: 750px;
+	}
+
+	#comp-courses > li, #elen-courses > li {
+		margin-left: 3%;
+		margin-top: 1%;
+	}
+
+	#comp-courses > li, #elen-courses > li{
+		opacity: 0;
+	}
+
+	#comp-title, #elen-title {
+		font-weight: 900;
+		visibility: hidden;
+	}
+
+	#comp-courses, #elen-courses {
+		font-weight: 500;
+	}
+
+	/*Skills*/
+	#skills {
+		min-height: 600px;
+	}
+	#lang-title, #frame-title {
+		font-weight: 900;
+    font-size: 20px;
+	}
+
+	.skill-languages, .skill-frameworks {
+		display: flex;
+		justify-content: center;
+		visibility: hidden;
+	}
+
+	#lang-fcolumn, #lang-scolumn, #frame-fcolumn, #frame-scolumn {
+		height: 100px;
+		min-width: 300px;
+		max-width: 350px;
+		font-weight: 900;
+		font-size: 20px;
+	}
+
+	/*Portfolio*/
+	.card-reveal {
+		color: #212121;
+		text-shadow: none;
+
+	}
+	
+	.card-content {
+		text-shadow: none;
+	}
+
+	/*Contact Me*/
+	#contact {
+		height: 650px;
+	}
+
+	.glossy-back {
+		background-color: rgba(0, 0, 0, 0.6);
+	}
+
+	.submit-btn {
+		margin-bottom: 5%;
+	}
+
+	/*Footer*/
+	.footer-copyright {
+		min-height: 25px;
+	}
+
+	.footer-copyright img {
+		height: 30px;
+	}
+	/*Media Queries*/
+
+	/*Social Buttons*/
+	@media screen and (max-width: 347px) {
+
+		.social-btns{
+			display: flex;
+			flex-direction: column;
+			align-content: center;
+		}
+	}
+
+	/*Skills Languages*/
+	@media screen and (max-width: 681px) {
+		.skill-languages, .skill-frameworks {
+			flex-direction: column;
+			align-items: center;
+		}
+		#lang-scolumn, #frame-scolumn {
+			margin-top: -10px;
+		}
+
+		#skills {
+			min-height: 700px;
+		}
+	}
+
+	/*portfolio quereis*/
+
+	@media screen and (max-width: 600px){
+		#portfolio {
+			height: 1800px;
+		}
+	}
+
+	@media screen and (min-width: 601px) {
+		#portfolio {
+			height: 850px;
+		}
+	}
+
+	@media (min-width: 601px) and (max-width: 992px) {
+		.proj-img {
+			height: 200px;
+		}
+	}
+
+	/*Logo*/
+	@media screen and (min-width: 993px) {
+		#logo-img {
+			margin-left: 20px;
+		}
+
+		.proj-img {
+			height: 200px;
+			width: calc(40vw);
+		}
+
+	}
+/* NavBar*/
+/* navbar */
+/* Navbar */
+.aa-nav {
+  width: 100%;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 60px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, .9);
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, .15);
+  padding-left: 40px;
+  padding-right: 40px;
+  transition: 0.2s linear all;
+  z-index:99;
+}
+.aa-small-nav {
+  height: 65px;
+}
+/* ./Navbar */
+/* Logo image */
+.aa-nav-icon-container {
+  position: relative;
+  float: left;
+  height: 100%;
+  padding-top: 7px;
+  margin-left:-130px;
+}
+.aa-nav-icon {
+  height: 50px;
+  cursor: pointer;
+  float: left;
+  transition: 0.2s linear all;
+}
+.aa-small-nav-icon {
+  height: 45px;
+}
+/* ./Logo image */
+/* Nav items */
+.aa-nav-items {
+  position: relative;
+  float: right;
+  margin: 0;
+  padding-right: 20px;
+  line-height: 90px;
+  list-style: none;
+  transition: 0.2s linear all;
+}
+.aa-small-nav-items {
+  line-height: 65px;
+}
+.aa-nav-items > span {
+  display: inline-block;
+  padding-left: 30px;
+}
+.aa-nav-item > a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #000;
+}
+.aa-nav-item > a:hover {
+  color: #ff7070;
+}
+/* ./Nav items */
+/* Hamburger */
+.aa-icon-bar {
+  background-color: #474747;
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+  margin-bottom: 4px;
+  transition: opacity, transform;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.7, 0, 0, 0.7);
+}
+.aa-hamburger-menu {
+  cursor: pointer;
+  position: fixed;
+  top: 38px;
+  right: 40px;
+  z-index: 999;
+  display: none;
+  transition: 0.2s linear all;
+}
+.aa-small-hamburger-menu {
+  top: 25.5px;
+}
+.aa-hamburger-menu:hover > .aa-icon-bar {
+  background-color: #ff707a;
+}
+.aa-hamburger-menu:not(.collapsed) .aa-icon-bar:nth-child(1) {
+  transform: translateY(6px) rotate(45deg);
+}
+.aa-hamburger-menu:not(.collapsed) .aa-icon-bar:nth-child(2) {
+  opacity: 0;
+  transform: translateX(-10px);
+}
+.aa-hamburger-menu:not(.collapsed) .aa-icon-bar:nth-child(3) {
+  transform: translateY(-6px) rotate(-45deg);
+}
+/* ./Hamburger */
+/* Mobile Overlay */
+.aa-mobile-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, .7);
+  overflow: auto;
+  z-index: 99;
+  display: none;
+}
+.aa-mobile-nav-items {
+  padding: 0;
+  margin: 65px 0px;
+  text-align: center;
+  list-style: none;
+}
+.aa-mobile-nav-items > li {
+  display: block;
+  padding-top: 30px;
+}
+.aa-mobile-nav-items > li > a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #000;
+}
+.aa-mobile-nav-items > li > a:hover {
+  color: #ff7070;
+}
+/* ./Mobile Overlay */
+/* Media queries */
+@media screen and (max-width: 768px) {
+  .aa-hamburger-menu {
+    display: block;
+  }
+  .aa-nav-items {
+    display: none;
+  }
+}
+/* ./Media queries */
+
+</style>
+</head>
+
+<body>
+  <!-- Navigation Bar-->
+   
+<!-- bootstrap navbar -->
+<nav class="aa-nav">
+  <div class="aa-nav-icon-container">
+    <img class="aa-nav-icon" src="https://i.imgur.com/9j4O8MX.png"/>
+  </div>
+  <div class="aa-nav-items">
+    <span class="aa-nav-item"><a href="#home">Home</a></span>
+    <span class="aa-nav-item"><a href="#about">About Me</a></span>
+    <span class="aa-nav-item"><a href="#skills">Skills</a></span>
+    <span class="aa-nav-item"><a href="#portfolio">Portfolio</a></span>
+    <span class="aa-nav-item"><a href="#contact">Contact Me</a></span>
+    <span class="aa-nav-item"><a href="http://wilkenslavarin.us/Blog/Home.html">Blog</a></span>
+<!--     <li id="searchBtn"><a><i class="search fa fa-search"></i></a></li> -->
+<!--     <li id="searchBtn"><a><i class="search fa fa-times hide"></i></a></li> -->
+  </div>
+</nav>
+
+<div class="aa-hamburger-menu collapsed" id="hamburgerMenu" onclick="toggleMenu()">
+  <span class="aa-icon-bar"></span>
+  <span class="aa-icon-bar"></span>
+  <span class="aa-icon-bar"></span>
+</div>
+
+<div class="aa-mobile-overlay">
+  <ul class="aa-mobile-nav-items">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#contact">Contact Me</a></li>
+    <li><a href="http://wilkenslavarin.us/Blog/Home.html">Blog</a></li>
+    <!-- <hr></hr> -->
+    
+  </ul>
+</div>
+
+  <!-- Content-->
+  <div class="content">
+    <!-- Home-->
+    <br><br><br>
+    <div id="home" class="parallax-container"><img id="home-img" src="https://media.licdn.com/dms/image/C4E03AQE6BddSVDY48Q/profile-displayphoto-shrink_200_200/0?e=1526410800&v=alpha&t=rt0XRjdmPgRDjKMxa989355s0S5SMXBHlspBc9Syb0I" alt="">
+      <div class="flow-text center home-text">
+        <div class="name">
+          <center><h5 style="color:white;">Wilkens Lavarin</h5></center></div>
+        <div class="description">
+          <h5 style="color:white;">Full Stack Developer</h5></div>
+        <div class="social-btns"><span><a href="https://github.com/wlavarin34" class="grey darken-4 waves-effect waves-light btn"><i class="fa fa-github-square"> Github</i></a></span><span><a href="https://www.linkedin.com/in/wilkens-lavarin-5435b0143/" class="grey darken-4 waves-effect waves-light btn"><i class="fa fa-linkedin-square"> LinkedIn</i></a></span><span><a href="https://www.instagram.com/codepicasso/?hl=en" class="grey darken-4 waves-effect waves-light btn"><i class="fa fa-instagram"> Instagram</i></a></span></div>
+      </div>
+      <div class="parallax"><img src="https://i.imgur.com/ic4qgE7.png?1" alt=""></div>
+    </div>
+    <!-- About-->
+    <div id="about" class="parallax-container">
+      <h3 id="about-title" class="flow-text content-title">About Me</h3>
+      <center><h5> I love coding!</h5></center>
+      <div class="section container">
+        <div class="divider"></div>
+        <h5 id="comp-title">Attended 4-Year College <span style="font-size:15px;">(Fairleigh Dickinson University - Computer Science Courses)</span> </h5>
+        <ul id="comp-courses" class="flow-text">
+          <li><i class="tiny material-icons">done</i>Introduction To Programming (C++)</li>
+          <li><i class="tiny material-icons">done</i>Data Structure and Algorithms</li>
+          <li><i class="tiny material-icons">done</i>Programming of the Internet <span style="font-size:12px;">(HTML/CSS/Bootstrap/Java/MEAN/PHP/SQL)</span></li>
+          <li><i class="tiny material-icons">done</i>Data Mining (R)</li>
+          <li><i class="tiny material-icons">done</i>Calculus I & II</li>
+          <li><i class="tiny material-icons">done</i>Object-Oriented Programming (Java)</li>
+          <li><i class="tiny material-icons">done</i>Numerical Anaylsis</li>
+        </ul>
+        <div class="divider"></div>
+        <h5>Other courses</h5>
+        <li><i class="tiny material-icons">done</i>Mathematics of Finance</li>
+        <li><i class="tiny material-icons">done</i>Family Business Management</li>
+      </div>
+      <div class="parallax"><img src="https://i.pinimg.com/originals/a3/8e/66/a38e66e215b90a6edc273189798777ad.jpg"  alt="" class="darken"></div>
+    </div>
+    <!-- Skills-->
+    <div id="skills" class="parallax-container">
+      <h3 id="skills-title" class="flow-text content-title">Skills</h3>
+      <div class="container">
+        <div class="divider"></div>
+        <div class="section">
+          <h4 id="lang-title" class="flow-text">Languages</h4></div>
+        <div class="row skill-languages">
+          <!-- First Column-->
+          <div id="lang-fcolumn" class="col s6">
+            <div class="row">
+              <!-- HTML Programming Language-->
+              <div class="col s6" style="font-size:17px;">HTML/CSS</div>
+              <div class="col s6"><i class="fa fa-star fa-fw"></i><i class="fa fa-star fa-fw"></i><i class="fa fa-star fa-fw"></i><i class="fa fa-star fa-fw"></i><i class="fa fa-star-half-o fa-fw"></i></div>
+              <!-- Java Programming Language-->
+              <div class="col s6">Java</div>
+              <div class="col s6"><i class="fa fa-star fa-fw"></i><i class="fa fa-star fa-fw"></i><i class="fa fa-star fa-fw"></i><i class="fa fa-star-o fa-fw"></i><i class="fa fa-star-o fa-fw"></i></div>
+              <!-- C++ Programming Language-->
+              <div class="col s6">C++/C#</div>
+              <div class="col s6"><i class="fa fa-star fa-fw"></i><i class="fa fa-star fa-fw"></i><i class="fa fa-star fa-fw"></i><i class="fa fa-star-o fa-fw"></i><i class="fa fa-star-o fa-fw"></i></div>
+            </div>
+          </div>
+          <!-- Second Column-->
+          <div id="lang-scolumn" class="col s6">
+            <div class="row">
+              <!-- NodeJS -> Processing Programming Language-->
+              <div class="col s6">NodeJS</div>
+              <div class="col s6"><i class="fa fa-star fa-fw"></i><i class="fa fa-star fa-fw"></i><i class="fa fa-star fa-fw"></i><i class="fa fa-star fa-fw"></i><i class="fa fa-star-o fa-fw"></i></div>
+              <!-- PHP / SQL -->
+               <div class="col s6">PHP/SQL</div>
+              <div class="col s6"><i class="fa fa-star fa-fw"></i><i class="fa fa-star fa-fw"></i><i class="fa fa-star fa-fw"></i><i class="fa fa-star fa-fw"></i><i class="fa fa-star-o fa-fw"></i></div>
+              <!-- Javascript Programming Language-->
+              <div class="col s6">Javascript</div>
+              <div class="col s6"><i class="fa fa-star fa-fw"></i><i class="fa fa-star fa-fw"></i><i class="fa fa-star fa-fw"></i><i class="fa fa-star fa-fw"></i><i class="fa fa-star-o fa-fw"></i></div>
+              <!-- Javascript Programming Language-->
+             
+            </div>
+          </div>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+          <h4 id="frame-title" class="flow-text">Frameworks&#9;&#38; Libraries</h4></div>
+        <div class="row skill-frameworks">
+          <!-- First Column-->
+          <div id="frame-fcolumn" class="col s6">
+            <div class="row">
+              <div class="col s6">jQuery</div>
+              <div class="col s6"><i class="fa fa-star fa-fw"></i><i class="fa fa-star fa-fw"></i><i class="fa fa-star fa-fw"></i><i class="fa fa-star fa-fw"></i><i class="fa fa-star-o fa-fw"></i></div>
+              <!-- Bootstrap Framework-->
+              <div class="col s6">Bootstrap</div>
+              <div class="col s6"><i class="fa fa-star fa-fw"></i><i class="fa fa-star fa-fw"></i><i class="fa fa-star fa-fw"></i><i class="fa fa-star fa-fw"></i><i class="fa fa-star-o fa-fw"></i></div>
+              <div class="col s6">Angular4</div>
+              <div class="col s6"><i class="fa fa-star fa-fw"></i><i class="fa fa-star fa-fw"></i><i/><i class="fa fa-star fa-fw"></i><i class="fa fa-star-o fa-fw"></i><i class="fa fa-star-o fa-fw"></i></div>
+            </div>
+          </div>
+          <!-- Second Framework-->
+          
+        </div>
+      </div>
+      <div class="parallax"><img src="https://5dwallpaper.com/wp-content/uploads/2017/07/FIREWATCH-Parallax-Screenshots-as-wallpaper-wp1003648.jpg" alt=""></div>
+    </div>
+    <!-- Portfolio-->
+    <div id="portfolio" class="parallax-container">
+      <h3 id="port-title" class="flow-text content-title">Portfolio</h3>
+      <div class="container">
+        <div class="divider"></div>
+        <div id="proj-cards" class="row">
+          <!-- IDS Project-->
+          <div class="col s12 m6 l4">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light"><img src="https://image.kurier.at/images/cfs_landscape_616w_308h/2361759/46-105083805.jpg" class="proj-img activator"></div>
+              <div class="card-content"><span class="flow-text card-title activator grey-text text-darken-4">ThermaWeave Project <i class="material-icons right">more_vert</i></span>
+                <p><a href="http://wilkenslavarin.us/ThermaWeaveProject/index.html">Click here to view</a></p>
+              </div>
+              <div class="card-reveal"><span class="flow-text card-title grey-text text-darken-4">ThermaWeave(PHP/SQL)<i class="material-icons right">close</i></span>
+                <p>This project is for a heating technology for winter clothes. I used HTML, CSS, JAVASCRIPT and PHP to create this webpage. This is a free template feel free to learn from it and use it for your own project.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Twitch Streamer App-->
+          <div class="col s12 m6 l4">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light"><img src="https://c.pxhere.com/photos/81/09/bike_flower_field_meadow_landscape-16921.jpg!d"></div>
+              <div class="card-content"><span class="card-title activator grey-text text-darken-4">Timeless Biking<i class="material-icons right">more_vert</i></span>
+                <p><a href="http://wilkenslavarin.us/TimelessBiking/Home.html">Click here to view</a></p>
+              </div>
+              <div class="card-reveal"><span class="card-title grey-text text-darken-4">TimelessBiking(PHP/SQL)<i class="material-icons right">close</i></span>
+                <p>Timeless Biking is a website for biking. This website was created while I was attending college. This template can also be used for free to get you started!</p>
+              </div>
+            </div>
+          </div>
+          <!-- Freecodecamp Hotstories-->
+          <div class="col s12 m6 l4">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light"><img src="https://images.pexels.com/photos/53437/taxi-cab-taxicab-taxi-cab-53437.jpeg?cs=srgb&dl=america-buildings-cab-53437.jpg&fm=jpg" class="proj-img activator"></div>
+              <div class="card-content"><span class="card-title activator grey-text text-darken-4">SuperCab LLC<i class="material-icons right">more_vert</i></span>
+                <p><a href="http://supercabllc.us">Click here to view</a></p>
+              </div>
+              <div class="card-reveal"><span class="card-title grey-text text-darken-4">SuperCab LLC (Javascript)<i class="material-icons right">close</i></span>
+                <p>Inspired by Uber, SuperCab LLC is a business located in Asbury Park, NJ. This websites allows you to order a taxi online. The taxi company currently do not use it but it definetly works go check it out! </p>
+              </div>
+            </div>
+          </div>
+          <!-- Random Quote Generator-->
+          <div class="col s12 m6 l4">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light"><img src="https://c1.staticflickr.com/8/7679/17362908918_35d30b9739_b.jpg" class="proj-img activator"></div>
+              <div class="card-content"><span class="card-title activator grey-text text-darken-4">Lavarin's Funeral Home<i class="material-icons right">more_vert</i></span>
+                <p><a href="http://lavarinsfuneralhome.us/">Click here to view</a></p>
+              </div>
+              <div class="card-reveal"><span class="card-title grey-text text-darken-4">Lavarin's Funeral Home<i class="material-icons right">close</i></span>
+                <p>This website is one of the first website I've created. I usually love looking at it because it shows me how much I have improved over the years. This websiteis for my uncles funeral home.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="parallax"><img src="http://subwallpaper.com/Widescreen-Wallpapers/google-now-wallpaper-images-For-Widescreen-Wallpaper.png" alt=""></div>
+    </div>
+    <!--Conctact Form-->
+    <div id="contact" class="parallax-container">
+      <h3 id="contact-title" class="flow-text content-title">Contact Me</h3>
+      <div class="divider"></div>
+      <div class="section"></div>
+      <div class="container">
+        <div id="contact-form" class="row glossy-back">
+          <form class="col s12" action="submit.php" method="post">
+            <div class="row">
+              <div class="input-field col s6">
+                <input id="first_name" name="firstname" type="text" class="validate">
+                <label for="first_name">First Name</label>
+              </div>
+              <div class="input-field col s6">
+                <input id="last_name" name="lastname" type="text" class="validate">
+                <label for="last_name">Last Name</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="email" name="email" type="email" class="validate">
+                <label for="email">Email</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <textarea id="textarea1" name="message" class="materialize-textarea"></textarea>
+                <label for="textarea1">Message</label>
+              </div>
+            </div>
+<div class="center-align submit-btn"> <span><button type="submit" name="submit" class="grey darken-4 waves-effect waves-light btn"><i class="fa fa-envelope"> Submit</i></button></span></div>
+          </form>
+        </div>
+      </div>
+      <div class="parallax"><img src="https://hdqwalls.com/download/mountains-moon-trees-minimalism-hd-1920x1080.jpg" alt=""></div>
+    </div>
+    <!-- Footer-->
+    <footer>
+      <div class="footer-copyright grey darken-4">
+        <div class="container center-align"><img src="https://i.imgur.com/9j4O8MX.png" alt=""></div>
+      </div>
+    </footer>
+  </div>
+<script id="jsbin-javascript">
+$(document).ready(function() {
+  //Function to spawn the side navigation bar
+  $(".button-collapse").sideNav();
+
+
+  //Scroll animation
+  $('a[href*=#]:not([href=#])').click(function() {
+   if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+     var target = $(this.hash);
+     target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+     if (target.length) {
+       $('html,body').animate({
+         scrollTop: target.offset().top
+       }, 1000);
+       return false;
+     }
+   }
+ });
+
+  //Parallax effect
+  $('.parallax').parallax();
+
+  //Scrollfire effect
+
+	var animationEnd ='webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+  var options = [
+		//About title
+		{selector: '#about-title', offset: 100, callback: 'makeVisible("#about-title")'},
+
+		//Comp Title
+		{selector: '#comp-title', offset: 100, callback: 'makeVisible("#comp-title")'},
+		//Computer Engineering
+		{selector: '#comp-courses', offset: 200, callback: 'Materialize.showStaggeredList("#comp-courses")'},
+
+		//Elen Title
+		{selector: '#elen-title', offset: 100, callback: 'makeVisible("#elen-title")'},
+		//Electrical Engineering
+		{selector: '#elen-courses', offset: 200, callback: 'Materialize.showStaggeredList("#elen-courses")'},
+
+		//----------------------------------------------------------
+
+		//Skills title
+		{selector: "#skills-title", offset: 100, callback: 'makeVisible("#skills-title")'},
+
+		//Language title
+		{selector: '#lang-title', offset: 100, callback: 'makeVisible("#lang-title")'},
+
+		//Langauges
+		{selector: '#lang-fcolumn', offset: 200, callback: 'makeVisible("#lang-fcolumn", "bounceInUp")'},
+		{selector: '#lang-scolumn', offset: 200, callback: 'makeVisible("#lang-scolumn", "bounceInUp")'},
+
+		//Framework title
+		{selector: '#frame-title', offset: 100, callback: 'makeVisible("#frame-title")'},
+
+		//Frameworks
+		{selector: '#frame-fcolumn', offset: 200, callback: 'makeVisible("#frame-fcolumn", "bounceInUp")'},
+		{selector: '#frame-scolumn', offset: 200, callback: 'makeVisible("#frame-scolumn", "bounceInUp")'},
+
+		//----------------------------------------------------------
+
+		//Portfolio
+		{selector: '#port-title', offset: 100, callback: 'makeVisible("#port-title")'},
+		//Cards
+		{selector: '#proj-cards', offset: 200, callback: 'makeVisible("#proj-cards", "bounceInUp")'},
+
+		//----------------------------------------------------------
+
+		//Contact
+		{selector: '#contact-title', offset: 100, callback: 'makeVisible("#contact-title")'},
+		{selector: '#contact-form', offset: 200, callback: 'makeVisible("#contact-form")'}
+
+
+  ];
+  Materialize.scrollFire(options);
+
+	$('#textarea1').trigger('autoresize');
+
+});
+
+function makeVisible(value, animation) {
+	console.log(value, animation);
+	if(!animation) { animation = "flipInX"; }
+	$(value).addClass("animated "+animation);
+	$(value).css('visibility', 'visible');
+}
+
+/** NavBar **/
+function toggleMenu() {
+  $("#hamburgerMenu").toggleClass("collapsed");  
+  $(".aa-mobile-overlay").animate({
+        height: "toggle",
+        opacity: "toggle"
+    }, 300);
+}
+
+var navHeight = 90;
+var scrollNavHeight = 65;
+var isExpanded = true;
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > navHeight) {
+    $('.aa-nav').addClass('aa-small-nav');    
+    $('.aa-nav-icon').addClass('aa-small-nav-icon');
+    $('.aa-nav-items').addClass('aa-small-nav-items');
+    $('.aa-hamburger-menu').addClass('aa-small-hamburger-menu');
+
+    isExpanded = false;
+  }
+  
+  if (!isExpanded && $(window).scrollTop() < navHeight) {
+    $('.aa-nav').removeClass('aa-small-nav');    
+    $('.aa-nav-icon').removeClass('aa-small-nav-icon');
+    $('.aa-nav-items').removeClass('aa-small-nav-items');
+    $('.aa-hamburger-menu').removeClass('aa-small-hamburger-menu');
+    
+    isExpanded = true;
+  }
+  
+});
+
+// $('#searchBtn').click(function() {
+//   $('.nav-item').toggle();
+//   $('.search').toggleClass('hide');
+// });
+
+// $(document).scroll(function () {
+//   var $nav = $(".navbar-fixed-top");
+//   $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+// });
+
+</script>
+</body>
+  
+</html>
