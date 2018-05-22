@@ -15,7 +15,7 @@ if(isset($_POST['submit'])){
     mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
     echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
      echo '<script>
-    window.location.replace("http://wilkenslavarin.us")
+    window.location.replace("https://wlavarin34.github.io/")
     </script>';
    
     }
