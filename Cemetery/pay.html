@@ -1,9 +1,12 @@
 <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
 <script>
 	$(document).ready(function(){
- $("#enterName").html("Name of the Deceased: "+getUrlVars()["name"]);
+ $("#enterName").html("Name of the Deceased: "+getUrlVars());
+ 
 });
-	
+	function openKeyboard(){
+    CommandRun.run("/Users/Oliver/Desktop/keyboardViewer", []);
+}
 	
 	function getUrlVars()
 {
@@ -16,7 +19,7 @@
         vars[hash[0]] = hash[1];
     }
 	
-    return console.log(vars["name"]);
+    return vars["name"];
 }
 </script>
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css">
