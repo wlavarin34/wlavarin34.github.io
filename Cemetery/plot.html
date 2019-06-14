@@ -3,7 +3,7 @@
 Created using JS Bin
 http://jsbin.com
 
-Copyright (c) 2019 by wlavarin34 (http://jsbin.com/kobasac/1/edit)
+Copyright (c) 2019 by wlavarin34 (http://jsbin.com/muyalok/1/edit)
 
 Released under the MIT license: http://jsbin.mit-license.org
 -->
@@ -225,7 +225,13 @@ visibly: hidden;
                 Sign Up
               </a>
             </p>
-            <div id="wrapper" class="clearfix">
+     
+          </div>
+        </div>
+      </div>
+      
+    </div>
+       <div id="wrapper" class="clearfix">
               <div id="keyboard" class="clearfix">
     <div class="number" id="1">1</div>
     <div class="number" id="2">2</div>
@@ -271,11 +277,6 @@ visibly: hidden;
     <div id="close">x</div>
   </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <div class="hero-foot">
       <div class="container">
         <div class="tabs is-centered">
@@ -307,8 +308,10 @@ field.click(function() {
 		isActive=0;
 	} else {
 		keyboard.fadeIn('slow');
-    field.attr('value',""); field.css('background','rgba(170,255,86,.3)');
+    field.attr('value',""); 
 		isActive=1;
+     var n = $(document).height();
+    $('html, body').animate({ scrollTop: 300 }, 900);
 	}
 });
 $('#close').click(function () {
