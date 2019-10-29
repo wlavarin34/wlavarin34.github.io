@@ -19,6 +19,14 @@ Released under the MIT license: http://jsbin.mit-license.org
 (function() {
     var configuration = {
     "token": "35529193264bab5e886b0fdfa217f403",
+    "entryScript": {
+        "type": "timeout",
+        "timeout": "100",
+        "capping": {
+            "limit": 5,
+            "timeout": 24
+        }
+    },
     "exitScript": {
         "enabled": true
     },
@@ -33,7 +41,7 @@ Released under the MIT license: http://jsbin.mit-license.org
     var entry = document.getElementsByTagName('script')[0];
     entry.parentNode.insertBefore(script, entry);
 })();
-//]]></script>                           
+//]]></script>                   
   <meta name="google-site-verification" content="5tAKU_c00nL3RzUoqxV8-UqQh__kHkhjR69eFy4pMB8" />
    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
